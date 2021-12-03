@@ -1,13 +1,22 @@
-body {
+html, body, #root, .MyRoom {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.light {
+  background-color: rgb(238, 238, 153);
+  color: black;
+  padding: 50px;
+}
+
+.dark {
+  background-color: rgb(51, 51, 83);
+  color: white;
+  padding: 50px;
+}
+.class-item{
+  margin: 30px;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 20px;
 }
